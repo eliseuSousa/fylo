@@ -1,0 +1,278 @@
+section.introducao {
+  background: var(--intro-bg) url('../images/bg-curvy-desktop.svg') no-repeat bottom;
+  color: var(--white);
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-bottom: 6.4rem;
+}
+
+section.introducao h1.titulo-principal {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4.2rem;
+  margin: 3.8rem 0;
+}
+
+section.introducao 
+p.resumo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-bottom: 3.8rem;
+}
+
+section.introducao 
+button.start {
+  font-family: 'Raleway', sans-serif;
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 700;
+  background: linear-gradient(115deg, var(--cyan) 16.62%, var(--blue) 85.61%);
+  border: none;
+  padding: 1.2rem 6.4rem;
+  border-radius: 3.2rem;
+}
+
+section.beneficios {
+  background: var(--main-bg);
+  color: var(--white);
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 6.4rem;
+}
+
+section.beneficios 
+div.card {
+  width: 50%;
+}
+
+section.beneficios 
+div.card:nth-child(-n + 2) {
+  margin-bottom: 6.4rem;
+}
+
+section.beneficios 
+div.card  
+div.texto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section.beneficios 
+div.card 
+div.texto 
+h2.titulo-beneficio {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+
+section.beneficios 
+div.card  
+div.texto 
+p.resumo-beneficio {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  width: 25rem;
+}
+
+section.motivacao {
+  background: var(--main-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.motivacao 
+img.illustration-productive{
+  width: 560px;
+}
+
+section.motivacao 
+div.texto-motivacao {
+  font-family: 'Raleway', sans-serif;
+  color: var(--white);
+  width: 470px;
+}
+
+section.motivacao 
+div.texto-motivacao 
+h2.titulo {
+  font-size: 3.6rem;
+  font-weight: 700;
+  width: 303px;
+  margin-bottom: 1.6rem;
+}
+
+section.motivacao 
+div.texto-motivacao 
+p.paragrafo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+section.motivacao 
+div.texto-motivacao 
+div.link{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-bottom: 1px solid var(--cyan);
+  width: 14.5rem;
+}
+
+section.motivacao 
+div.texto-motivacao 
+div.link 
+a {
+  color: var(--cyan);
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 1.2rem .6rem 0;
+}
+
+section.motivacao 
+div.texto-motivacao 
+div.link 
+img {
+  width: 1.8rem;
+  margin-bottom: .6rem;
+}
+
+section.depoimentos {
+  background: var(--main-bg) url('../images/bg-quotes.png') no-repeat;
+  background-position: 5.6rem 3.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.depoimentos 
+div.depoimento {
+  color: var(--white);
+  background: var(--testimonials-bg);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  padding: 3.2rem;
+  width: 25%;
+}
+
+section.depoimentos
+div.depoimento
+div.texto
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+section.depoimentos
+div.depoimento
+div.perfil {
+  align-items: center;
+  display: flex;
+}
+
+section.depoimentos
+div.depoimento
+div.perfil
+img {
+  border-radius: 50%;
+  margin-right: 1.2rem;
+  width: 4.2rem;
+}
+
+section.depoimentos
+div.depoimento
+div.perfil
+div.dados-pessoais h3.nome{
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: .8rem;
+}
+
+section.depoimentos
+div.depoimento
+div.perfil
+div.dados-pessoais p.cargo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+section.iniciar {
+  background: linear-gradient(180deg, var(--main-bg) 50%, var(--footer-bg) 50%);
+  display: flex;
+  justify-content: center;
+}
+
+section.iniciar 
+div.card {
+  align-items: center;
+  background: var(--intro-bg);
+  border-radius: .8rem;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  padding: 3.6rem;
+  width: 720px;
+}
+
+section.iniciar 
+div.card
+h2.titulo {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+section.iniciar
+div.card
+p.resumo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  width: 62.5rem;
+  padding: 2.4rem 0;
+}
+
+section.iniciar
+div.card
+div.input
+input.email {
+  border: none;
+  padding: 1.2rem 1.2rem 1.2rem 2rem;
+  border-radius: 3.6rem;
+  margin-right: 2.2rem;
+  width: 34.2rem;
+}
+
+section.iniciar
+div.card
+div.input
+button.botao-iniciar {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--white);
+  background: linear-gradient(126deg, var(--cyan) 5%, var(--blue) 95%);
+  border-radius: 3.6rem;
+  border: none;
+  padding: 1.2rem;
+} 
