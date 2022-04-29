@@ -42,3 +42,14 @@ p.resumo-beneficio {
   line-height: 1.8rem;
   width: 25rem;
 }
+
+@media screen and (max-width: 425px){
+  div.card {
+    margin-bottom: 6.4rem;
+    width: 100%;
+  }
+
+  div.card:last-child {
+    margin-bottom: 0;
+  }
+}

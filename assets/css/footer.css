@@ -1,7 +1,7 @@
 footer.rodape {
   color: var(--white);
   background: var(--footer-bg);
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
   padding-top: 0rem;
@@ -172,4 +172,41 @@ div.rede-social
 svg:hover path {
   fill: var(--cyan);
   cursor: pointer;
+}
+
+@media screen and (max-width: 425px){
+  footer.rodape {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  nav.itens-rodape {
+    flex-direction: column;
+  }
+
+  nav.itens-rodape
+  div.localizacao {
+    margin-bottom: 1.6rem;
+  }
+
+  nav.itens-rodape
+  div.localizacao
+  p.endereco {
+    font-size: 1.6rem;
+  }
+
+  nav.itens-rodape
+  div.forma-contato, nav.itens-rodape nav.contact {
+    margin-bottom: 6.4rem;
+  }
+
+  nav.itens-rodape
+  nav.sobre {
+    margin-bottom: 3.2rem;
+  }
+
+  nav.itens-rodape 
+  nav.redes-socias {
+    align-self: center;
+  }
 }

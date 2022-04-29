@@ -71,3 +71,32 @@ a:hover, svg:hover use {
   cursor: pointer;
   fill: var(--white);
 }
+
+@media screen and (max-width: 425px){
+  section.motivacao {
+    flex-direction: column;
+    padding-bottom: 10rem;
+  }
+
+  img.illustration-productive{
+    width: 36rem;
+    margin-bottom: 3.2rem;
+  }
+
+  div.texto-motivacao {
+    width: 37rem;
+  }
+
+  div.texto-motivacao 
+  h2.titulo {
+    font-size: 2.2rem;
+    width: auto;
+    margin-top: 3.2rem;
+  }
+
+  div.texto-motivacao 
+  p.paragrafo {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+}

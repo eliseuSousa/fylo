@@ -1,5 +1,8 @@
-section.introducao{
-  background: var(--intro-bg) url('../../images/bg-curvy-desktop.svg') no-repeat bottom;
+section.introducao {
+  background-color: var(--intro-bg);
+  background-image: url('../../images/bg-curvy-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
   color: var(--white);
   font-family: 'Raleway', sans-serif;
   text-align: center;
@@ -39,4 +42,22 @@ button.start {
 button.start:hover {
   cursor: pointer;
   background: linear-gradient(115deg, var(--cyan) 98%, var(--blue) 2%);
+}
+
+@media screen and (max-width: 425px) {
+  section.introducao {
+    background-image: url('../../images/bg-curvy-mobile.svg');
+    background-size: contain;
+  }
+
+  img.illustration-intro {
+    width: 35rem;
+  }
+
+  h1.titulo-principal {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    margin-bottom: 1.6rem;
+  }
 }

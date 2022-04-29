@@ -5,7 +5,6 @@ header.cabecalho {
   justify-content: space-between;
 }
 
-header.cabecalho 
 nav.nav-bar {
   display: flex;
   align-items: center;
@@ -13,7 +12,6 @@ nav.nav-bar {
   width: 28rem;
 }
 
-header.cabecalho 
 nav.nav-bar 
 h2.item {
   color: var(--white);
@@ -23,11 +21,20 @@ h2.item {
   transition: all .1s;
 }
 
-header.cabecalho 
 nav.nav-bar 
 h2.item:hover {
   cursor: pointer;
   margin-bottom: .05rem;
   border-bottom: .1rem solid var(--white);
   font-weight: 700;
+}
+
+@media screen and (max-width: 425px) {
+  img.logo {
+    width: 10rem;
+  }
+
+  nav.nav-bar {
+    width: 20rem;
+  }
 }
