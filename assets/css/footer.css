@@ -1,0 +1,88 @@
+footer.rodape {
+  color: var(--white);
+  background: var(--footer-bg);
+  font-family: 'Overpass', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-top: 0rem;
+}
+
+nav.itens-rodape {
+  display: flex;
+  padding-top: 3.6rem;
+  justify-content: space-between;
+}
+
+nav.itens-rodape
+div.localizacao {
+  display: flex;
+  align-items: flex-start;
+  width: 32rem;
+}
+
+nav.itens-rodape
+div.localizacao
+p.endereco {
+  line-height: 1.8rem;
+  margin-left: 1.6rem;
+}
+
+nav.itens-rodape
+div.forma-contato
+div.contato {
+  display: flex;
+  align-items: center;
+}
+
+nav.itens-rodape
+div.forma-contato
+div.contato:first-child {
+  margin-bottom: 1.6rem;
+}
+
+nav.itens-rodape
+div.forma-contato
+div.contato
+img.icone-contato {
+  margin-right: 1.6rem;
+}
+
+nav.itens-rodape
+nav.sobre, 
+nav.itens-rodape
+nav.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+nav.itens-rodape
+nav.sobre
+p,
+nav.itens-rodape
+nav.contact
+p {
+  margin-bottom: 1.6rem;
+}
+
+nav.itens-rodape
+nav.sobre
+a,
+nav.itens-rodape
+nav.contact
+a {
+  color: var(--white);
+  font-family: 'Overpass', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+  text-decoration: none;
+}
+
+nav.itens-rodape
+nav.sobre
+a:last-child,
+nav.itens-rodape
+nav.contact
+a:last-child {
+  margin-bottom: 0;
+}
