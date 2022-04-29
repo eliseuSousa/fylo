@@ -1,0 +1,42 @@
+section.introducao{
+  background: var(--intro-bg) url('../../images/bg-curvy-desktop.svg') no-repeat bottom;
+  color: var(--white);
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-bottom: 6.4rem;
+}
+
+h1.titulo-principal {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4.2rem;
+  margin: 3.8rem 0;
+}
+
+
+p.resumo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-bottom: 3.8rem;
+}
+
+
+button.start {
+  font-family: 'Raleway', sans-serif;
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 700;
+  background: linear-gradient(115deg, var(--cyan) 16.62%, var(--blue) 85.61%);
+  border: none;
+  padding: 1.2rem 6.4rem;
+  border-radius: 3.2rem;
+  transition: all .3s;
+}
+
+
+button.start:hover {
+  cursor: pointer;
+  background: linear-gradient(115deg, var(--cyan) 98%, var(--blue) 2%);
+}

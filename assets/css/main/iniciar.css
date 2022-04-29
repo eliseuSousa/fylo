@@ -1,0 +1,68 @@
+section.iniciar {
+  background: linear-gradient(180deg, var(--main-bg) 50%, var(--footer-bg) 50%);
+  display: flex;
+  justify-content: center;
+}
+
+div.card-iniciar {
+  align-items: center;
+  background: var(--intro-bg);
+  border-radius: .8rem;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  padding: 3.6rem;
+  width: 720px;
+}
+
+div.card-iniciar
+h2.titulo {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+div.card-iniciar
+p.resumo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  width: 62.5rem;
+  padding: 2.4rem 0;
+}
+
+div.card-iniciar
+div.input {
+  position: relative;
+}
+
+div.card-iniciar
+div.input
+input.email {
+  border: none;
+  padding: 1.2rem 1.2rem 1.2rem 2rem;
+  border-radius: 3.6rem;
+  margin-right: 2.2rem;
+  width: 34.2rem;
+}
+
+div.card-iniciar
+div.input
+button.botao-iniciar {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--white);
+  background: linear-gradient(126deg, var(--cyan) 5%, var(--blue) 95%);
+  border-radius: 3.6rem;
+  border: none;
+  padding: 1.2rem;
+  transition: all .3s;
+} 
+
+div.card-iniciar
+div.input
+button.botao-iniciar:hover {
+  background: linear-gradient(126deg, var(--cyan) 98%, var(--blue) 2%);
+  cursor: pointer;
+}

@@ -1,0 +1,73 @@
+section.motivacao {
+  background: var(--main-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img.illustration-productive{
+  width: 560px;
+}
+
+div.texto-motivacao {
+  font-family: 'Raleway', sans-serif;
+  color: var(--white);
+  width: 470px;
+}
+
+div.texto-motivacao 
+h2.titulo {
+  font-size: 3.6rem;
+  font-weight: 700;
+  width: 303px;
+  margin-bottom: 1.6rem;
+}
+
+div.texto-motivacao 
+p.paragrafo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+div.texto-motivacao 
+div.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--cyan);
+  width: 13.5rem;
+  transition: all .3s;
+}
+
+div.texto-motivacao 
+div.link:hover {
+  cursor:pointer;
+  border-bottom: 1px solid var(--white);
+}
+
+div.texto-motivacao 
+div.link 
+a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--cyan);
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: .6rem;
+  transition: all .3s;
+  width: 13.5rem;
+}
+
+div.texto-motivacao 
+div.link 
+a:hover, svg:hover use {
+  color: var(--white);
+  cursor: pointer;
+  fill: var(--white);
+}

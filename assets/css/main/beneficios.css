@@ -1,0 +1,44 @@
+section.beneficios {
+  background: var(--main-bg);
+  color: var(--white);
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 6.4rem;
+}
+
+div.card {
+  width: 50%;
+}
+
+div.card:nth-child(-n + 2) {
+  margin-bottom: 6.4rem;
+}
+
+div.card  
+div.texto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.card 
+div.texto 
+h2.titulo-beneficio {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+
+div.card  
+div.texto 
+p.resumo-beneficio {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  width: 25rem;
+}
