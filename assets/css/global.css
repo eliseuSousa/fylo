@@ -26,3 +26,13 @@ html {
 .container {
   padding: 6.4rem;
 }
+
+.invalid-email {
+  font-family: 'Open Sans';
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--light-red);
+  position: absolute;
+  left: 1.6rem;
+  top: 4.8rem;
+}

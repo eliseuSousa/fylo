@@ -32,6 +32,13 @@ button.start {
   border: none;
   padding: 1.2rem 6.4rem;
   border-radius: 3.2rem;
+  transition: all .3s;
+}
+
+section.introducao 
+button.start:hover {
+  cursor: pointer;
+  background: linear-gradient(115deg, var(--cyan) 98%, var(--blue) 2%);
 }
 
 section.beneficios {
@@ -124,32 +131,46 @@ p.paragrafo {
 
 section.motivacao 
 div.texto-motivacao 
-div.link{
+div.link {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   border-bottom: 1px solid var(--cyan);
-  width: 14.5rem;
+  width: 13.5rem;
+  transition: all .3s;
+}
+
+section.motivacao 
+div.texto-motivacao 
+div.link:hover {
+  cursor:pointer;
+  border-bottom: 1px solid var(--white);
 }
 
 section.motivacao 
 div.texto-motivacao 
 div.link 
 a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: var(--cyan);
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
-  margin: 0 1.2rem .6rem 0;
+  margin-bottom: .6rem;
+  transition: all .3s;
+  width: 13.5rem;
 }
 
 section.motivacao 
 div.texto-motivacao 
 div.link 
-img {
-  width: 1.8rem;
-  margin-bottom: .6rem;
+a:hover, svg:hover use {
+  color: var(--white);
+  cursor: pointer;
+  fill: var(--white);
 }
 
 section.depoimentos {
@@ -200,7 +221,8 @@ img {
 section.depoimentos
 div.depoimento
 div.perfil
-div.dados-pessoais h3.nome{
+div.dados-pessoais 
+h3.nome{
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: .8rem;
@@ -209,7 +231,8 @@ div.dados-pessoais h3.nome{
 section.depoimentos
 div.depoimento
 div.perfil
-div.dados-pessoais p.cargo {
+div.dados-pessoais 
+p.cargo {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -252,6 +275,12 @@ p.resumo {
   padding: 2.4rem 0;
 }
 
+section.iniciar 
+div.card
+div.input {
+  position: relative;
+}
+
 section.iniciar
 div.card
 div.input
@@ -275,4 +304,13 @@ button.botao-iniciar {
   border-radius: 3.6rem;
   border: none;
   padding: 1.2rem;
+  transition: all .3s;
 } 
+
+section.iniciar
+div.card
+div.input
+button.botao-iniciar:hover {
+  background: linear-gradient(126deg, var(--cyan) 98%, var(--blue) 2%);
+  cursor: pointer;
+}
